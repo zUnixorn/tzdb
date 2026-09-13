@@ -426,6 +426,7 @@ pub const TZ_NAMES: &[&str] = &[
     "Etc/GMT-9",
     "Etc/GMT0",
     "Etc/Greenwich",
+    "Etc/localtime",
     "Etc/UCT",
     "Etc/Universal",
     "Etc/UTC",

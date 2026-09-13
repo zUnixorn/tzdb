@@ -1019,6 +1019,26 @@ fn test() {
             ],
         ),
         (
+            &time_zone::america::CHICAGO,
+            time_zone::america::RAW_CHICAGO,
+            &[
+                b"America/Chicago",
+                b"america/chicago",
+                b"AMERICA/CHICAGO",
+                b"aMERICA/cHICAGO",
+                b"AmErIcA/ChIcAgO",
+                b"aMeRiCa/cHiCaGo",
+            ],
+        ),
+        (&time_zone::us::CENTRAL, time_zone::us::RAW_CENTRAL, &[
+            b"US/Central",
+            b"us/central",
+            b"US/CENTRAL",
+            b"us/cENTRAL",
+            b"Us/cEnTrAl",
+            b"uS/CeNtRaL",
+        ]),
+        (
             &time_zone::america::CHIHUAHUA,
             time_zone::america::RAW_CHIHUAHUA,
             &[
@@ -1823,6 +1843,26 @@ fn test() {
             b"aMeRiCa/lImA",
         ]),
         (
+            &time_zone::america::LOS_ANGELES,
+            time_zone::america::RAW_LOS_ANGELES,
+            &[
+                b"America/Los_Angeles",
+                b"america/los_angeles",
+                b"AMERICA/LOS_ANGELES",
+                b"aMERICA/lOS_aNGELES",
+                b"AmErIcA/LoS_AnGeLeS",
+                b"aMeRiCa/lOs_aNgElEs",
+            ],
+        ),
+        (&time_zone::us::PACIFIC, time_zone::us::RAW_PACIFIC, &[
+            b"US/Pacific",
+            b"us/pacific",
+            b"US/PACIFIC",
+            b"us/pACIFIC",
+            b"Us/pAcIfIc",
+            b"uS/PaCiFiC",
+        ]),
+        (
             &time_zone::america::LOUISVILLE,
             time_zone::america::RAW_LOUISVILLE,
             &[
@@ -2154,6 +2194,26 @@ fn test() {
                 b"aMeRiCa/nAsSaU",
             ],
         ),
+        (
+            &time_zone::america::NEW_YORK,
+            time_zone::america::RAW_NEW_YORK,
+            &[
+                b"America/New_York",
+                b"america/new_york",
+                b"AMERICA/NEW_YORK",
+                b"aMERICA/nEW_yORK",
+                b"AmErIcA/NeW_YoRk",
+                b"aMeRiCa/nEw_yOrK",
+            ],
+        ),
+        (&time_zone::us::EASTERN, time_zone::us::RAW_EASTERN, &[
+            b"US/Eastern",
+            b"us/eastern",
+            b"US/EASTERN",
+            b"us/eASTERN",
+            b"Us/eAsTeRn",
+            b"uS/EaStErN",
+        ]),
         (&time_zone::america::NOME, time_zone::america::RAW_NOME, &[
             b"America/Nome",
             b"america/nome",
@@ -4147,26 +4207,6 @@ fn test() {
         (&time_zone::CST_6_CDT, time_zone::RAW_CST_6_CDT, &[
             b"CST6CDT", b"cst6cdt", b"CST6CDT", b"cst6cdt", b"CsT6CdT", b"cSt6cDt",
         ]),
-        (
-            &time_zone::america::CHICAGO,
-            time_zone::america::RAW_CHICAGO,
-            &[
-                b"America/Chicago",
-                b"america/chicago",
-                b"AMERICA/CHICAGO",
-                b"aMERICA/cHICAGO",
-                b"AmErIcA/ChIcAgO",
-                b"aMeRiCa/cHiCaGo",
-            ],
-        ),
-        (&time_zone::us::CENTRAL, time_zone::us::RAW_CENTRAL, &[
-            b"US/Central",
-            b"us/central",
-            b"US/CENTRAL",
-            b"us/cENTRAL",
-            b"Us/cEnTrAl",
-            b"uS/CeNtRaL",
-        ]),
         (&time_zone::CUBA, time_zone::RAW_CUBA, &[
             b"Cuba", b"cuba", b"CUBA", b"cUBA", b"CuBa", b"cUbA",
         ]),
@@ -4252,26 +4292,6 @@ fn test() {
         ),
         (&time_zone::EST_5_EDT, time_zone::RAW_EST_5_EDT, &[
             b"EST5EDT", b"est5edt", b"EST5EDT", b"est5edt", b"EsT5EdT", b"eSt5eDt",
-        ]),
-        (
-            &time_zone::america::NEW_YORK,
-            time_zone::america::RAW_NEW_YORK,
-            &[
-                b"America/New_York",
-                b"america/new_york",
-                b"AMERICA/NEW_YORK",
-                b"aMERICA/nEW_yORK",
-                b"AmErIcA/NeW_YoRk",
-                b"aMeRiCa/nEw_yOrK",
-            ],
-        ),
-        (&time_zone::us::EASTERN, time_zone::us::RAW_EASTERN, &[
-            b"US/Eastern",
-            b"us/eastern",
-            b"US/EASTERN",
-            b"us/eASTERN",
-            b"Us/eAsTeRn",
-            b"uS/EaStErN",
         ]),
         (
             &time_zone::etc::GMT_MINUS_1,
@@ -5180,6 +5200,18 @@ fn test() {
         (&time_zone::FACTORY, time_zone::RAW_FACTORY, &[
             b"Factory", b"factory", b"FACTORY", b"fACTORY", b"FaCtOrY", b"fAcToRy",
         ]),
+        (
+            &time_zone::etc::LOCALTIME,
+            time_zone::etc::RAW_LOCALTIME,
+            &[
+                b"Etc/localtime",
+                b"etc/localtime",
+                b"ETC/LOCALTIME",
+                b"eTC/LOCALTIME",
+                b"EtC/LoCaLtImE",
+                b"eTc/lOcAlTiMe",
+            ],
+        ),
         (&time_zone::GB, time_zone::RAW_GB, &[
             b"GB", b"gb", b"GB", b"gb", b"Gb", b"gB",
         ]),
@@ -6208,26 +6240,6 @@ fn test() {
         ),
         (&time_zone::PST_8_PDT, time_zone::RAW_PST_8_PDT, &[
             b"PST8PDT", b"pst8pdt", b"PST8PDT", b"pst8pdt", b"PsT8PdT", b"pSt8pDt",
-        ]),
-        (
-            &time_zone::america::LOS_ANGELES,
-            time_zone::america::RAW_LOS_ANGELES,
-            &[
-                b"America/Los_Angeles",
-                b"america/los_angeles",
-                b"AMERICA/LOS_ANGELES",
-                b"aMERICA/lOS_aNGELES",
-                b"AmErIcA/LoS_AnGeLeS",
-                b"aMeRiCa/lOs_aNgElEs",
-            ],
-        ),
-        (&time_zone::us::PACIFIC, time_zone::us::RAW_PACIFIC, &[
-            b"US/Pacific",
-            b"us/pacific",
-            b"US/PACIFIC",
-            b"us/pACIFIC",
-            b"Us/pAcIfIc",
-            b"uS/PaCiFiC",
         ]),
         (&time_zone::ROC, time_zone::RAW_ROC, &[
             b"ROC", b"roc", b"ROC", b"roc", b"RoC", b"rOc",

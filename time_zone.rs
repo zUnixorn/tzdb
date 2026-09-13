@@ -282,7 +282,7 @@ pub mod america {
     /// Time zone data for `"America/Cayman"`
     pub const CAYMAN: tz::TimeZoneRef<'static> = crate::generated::tzdata::AMERICA_CAYMAN;
     /// Time zone data for `"America/Chicago"`
-    pub const CHICAGO: tz::TimeZoneRef<'static> = crate::generated::tzdata::CST_6_CDT;
+    pub const CHICAGO: tz::TimeZoneRef<'static> = crate::generated::tzdata::AMERICA_CHICAGO;
     /// Time zone data for `"America/Chihuahua"`
     pub const CHIHUAHUA: tz::TimeZoneRef<'static> = crate::generated::tzdata::AMERICA_CHIHUAHUA;
     /// Time zone data for `"America/Ciudad_Juarez"`
@@ -311,7 +311,7 @@ pub mod america {
     pub const DAWSON_CREEK: tz::TimeZoneRef<'static> =
         crate::generated::tzdata::AMERICA_DAWSON_CREEK;
     /// Time zone data for `"America/Denver"`
-    pub const DENVER: tz::TimeZoneRef<'static> = crate::generated::tzdata::MST_7_MDT;
+    pub const DENVER: tz::TimeZoneRef<'static> = crate::generated::tzdata::NAVAJO;
     /// Time zone data for `"America/Detroit"`
     pub const DETROIT: tz::TimeZoneRef<'static> = crate::generated::tzdata::AMERICA_DETROIT;
     /// Time zone data for `"America/Dominica"`
@@ -375,7 +375,7 @@ pub mod america {
     /// Time zone data for `"America/Lima"`
     pub const LIMA: tz::TimeZoneRef<'static> = crate::generated::tzdata::AMERICA_LIMA;
     /// Time zone data for `"America/Los_Angeles"`
-    pub const LOS_ANGELES: tz::TimeZoneRef<'static> = crate::generated::tzdata::PST_8_PDT;
+    pub const LOS_ANGELES: tz::TimeZoneRef<'static> = crate::generated::tzdata::AMERICA_LOS_ANGELES;
     /// Time zone data for `"America/Louisville"`
     pub const LOUISVILLE: tz::TimeZoneRef<'static> = crate::generated::tzdata::AMERICA_LOUISVILLE;
     /// Time zone data for `"America/Lower_Princes"`
@@ -420,7 +420,7 @@ pub mod america {
     /// Time zone data for `"America/Nassau"`
     pub const NASSAU: tz::TimeZoneRef<'static> = crate::generated::tzdata::AMERICA_NASSAU;
     /// Time zone data for `"America/New_York"`
-    pub const NEW_YORK: tz::TimeZoneRef<'static> = crate::generated::tzdata::EST_5_EDT;
+    pub const NEW_YORK: tz::TimeZoneRef<'static> = crate::generated::tzdata::AMERICA_NEW_YORK;
     /// Time zone data for `"America/Nipigon"`
     pub const NIPIGON: tz::TimeZoneRef<'static> = crate::generated::tzdata::AMERICA_MONTREAL;
     /// Time zone data for `"America/Nome"`
@@ -484,7 +484,7 @@ pub mod america {
     pub const SCORESBYSUND: tz::TimeZoneRef<'static> =
         crate::generated::tzdata::AMERICA_SCORESBYSUND;
     /// Time zone data for `"America/Shiprock"`
-    pub const SHIPROCK: tz::TimeZoneRef<'static> = crate::generated::tzdata::MST_7_MDT;
+    pub const SHIPROCK: tz::TimeZoneRef<'static> = crate::generated::tzdata::NAVAJO;
     /// Time zone data for `"America/Sitka"`
     pub const SITKA: tz::TimeZoneRef<'static> = crate::generated::tzdata::AMERICA_SITKA;
     /// Time zone data for `"America/St_Barthelemy"`
@@ -580,7 +580,7 @@ pub mod america {
     /// Raw, unparsed time zone data for `"America/Cayman"`
     pub const RAW_CAYMAN: &[u8] = crate::generated::raw_tzdata::AMERICA_CAYMAN;
     /// Raw, unparsed time zone data for `"America/Chicago"`
-    pub const RAW_CHICAGO: &[u8] = crate::generated::raw_tzdata::CST_6_CDT;
+    pub const RAW_CHICAGO: &[u8] = crate::generated::raw_tzdata::AMERICA_CHICAGO;
     /// Raw, unparsed time zone data for `"America/Chihuahua"`
     pub const RAW_CHIHUAHUA: &[u8] = crate::generated::raw_tzdata::AMERICA_CHIHUAHUA;
     /// Raw, unparsed time zone data for `"America/Ciudad_Juarez"`
@@ -606,7 +606,7 @@ pub mod america {
     /// Raw, unparsed time zone data for `"America/Dawson_Creek"`
     pub const RAW_DAWSON_CREEK: &[u8] = crate::generated::raw_tzdata::AMERICA_DAWSON_CREEK;
     /// Raw, unparsed time zone data for `"America/Denver"`
-    pub const RAW_DENVER: &[u8] = crate::generated::raw_tzdata::MST_7_MDT;
+    pub const RAW_DENVER: &[u8] = crate::generated::raw_tzdata::NAVAJO;
     /// Raw, unparsed time zone data for `"America/Detroit"`
     pub const RAW_DETROIT: &[u8] = crate::generated::raw_tzdata::AMERICA_DETROIT;
     /// Raw, unparsed time zone data for `"America/Dominica"`
@@ -670,7 +670,7 @@ pub mod america {
     /// Raw, unparsed time zone data for `"America/Lima"`
     pub const RAW_LIMA: &[u8] = crate::generated::raw_tzdata::AMERICA_LIMA;
     /// Raw, unparsed time zone data for `"America/Los_Angeles"`
-    pub const RAW_LOS_ANGELES: &[u8] = crate::generated::raw_tzdata::PST_8_PDT;
+    pub const RAW_LOS_ANGELES: &[u8] = crate::generated::raw_tzdata::AMERICA_LOS_ANGELES;
     /// Raw, unparsed time zone data for `"America/Louisville"`
     pub const RAW_LOUISVILLE: &[u8] = crate::generated::raw_tzdata::AMERICA_LOUISVILLE;
     /// Raw, unparsed time zone data for `"America/Lower_Princes"`
@@ -714,7 +714,7 @@ pub mod america {
     /// Raw, unparsed time zone data for `"America/Nassau"`
     pub const RAW_NASSAU: &[u8] = crate::generated::raw_tzdata::AMERICA_NASSAU;
     /// Raw, unparsed time zone data for `"America/New_York"`
-    pub const RAW_NEW_YORK: &[u8] = crate::generated::raw_tzdata::EST_5_EDT;
+    pub const RAW_NEW_YORK: &[u8] = crate::generated::raw_tzdata::AMERICA_NEW_YORK;
     /// Raw, unparsed time zone data for `"America/Nipigon"`
     pub const RAW_NIPIGON: &[u8] = crate::generated::raw_tzdata::AMERICA_MONTREAL;
     /// Raw, unparsed time zone data for `"America/Nome"`
@@ -772,7 +772,7 @@ pub mod america {
     /// Raw, unparsed time zone data for `"America/Scoresbysund"`
     pub const RAW_SCORESBYSUND: &[u8] = crate::generated::raw_tzdata::AMERICA_SCORESBYSUND;
     /// Raw, unparsed time zone data for `"America/Shiprock"`
-    pub const RAW_SHIPROCK: &[u8] = crate::generated::raw_tzdata::MST_7_MDT;
+    pub const RAW_SHIPROCK: &[u8] = crate::generated::raw_tzdata::NAVAJO;
     /// Raw, unparsed time zone data for `"America/Sitka"`
     pub const RAW_SITKA: &[u8] = crate::generated::raw_tzdata::AMERICA_SITKA;
     /// Raw, unparsed time zone data for `"America/St_Barthelemy"`
@@ -1687,6 +1687,8 @@ pub mod etc {
     pub const GMT_PLUS_9: tz::TimeZoneRef<'static> = crate::generated::tzdata::ETC_GMT_PLUS_9;
     /// Time zone data for `"Etc/Greenwich"`
     pub const GREENWICH: tz::TimeZoneRef<'static> = crate::generated::tzdata::GMT;
+    /// Time zone data for `"Etc/localtime"`
+    pub const LOCALTIME: tz::TimeZoneRef<'static> = crate::generated::tzdata::FACTORY;
     /// Time zone data for `"Etc/UCT"`
     pub const UCT: tz::TimeZoneRef<'static> = crate::generated::tzdata::UCT;
     /// Time zone data for `"Etc/Universal"`
@@ -1757,6 +1759,8 @@ pub mod etc {
     pub const RAW_GMT_PLUS_9: &[u8] = crate::generated::raw_tzdata::ETC_GMT_PLUS_9;
     /// Raw, unparsed time zone data for `"Etc/Greenwich"`
     pub const RAW_GREENWICH: &[u8] = crate::generated::raw_tzdata::GMT;
+    /// Raw, unparsed time zone data for `"Etc/localtime"`
+    pub const RAW_LOCALTIME: &[u8] = crate::generated::raw_tzdata::FACTORY;
     /// Raw, unparsed time zone data for `"Etc/UCT"`
     pub const RAW_UCT: &[u8] = crate::generated::raw_tzdata::UCT;
     /// Raw, unparsed time zone data for `"Etc/Universal"`
@@ -2278,9 +2282,9 @@ pub mod us {
     /// Time zone data for `"US/Arizona"`
     pub const ARIZONA: tz::TimeZoneRef<'static> = crate::generated::tzdata::MST;
     /// Time zone data for `"US/Central"`
-    pub const CENTRAL: tz::TimeZoneRef<'static> = crate::generated::tzdata::CST_6_CDT;
+    pub const CENTRAL: tz::TimeZoneRef<'static> = crate::generated::tzdata::AMERICA_CHICAGO;
     /// Time zone data for `"US/Eastern"`
-    pub const EASTERN: tz::TimeZoneRef<'static> = crate::generated::tzdata::EST_5_EDT;
+    pub const EASTERN: tz::TimeZoneRef<'static> = crate::generated::tzdata::AMERICA_NEW_YORK;
     /// Time zone data for `"US/East-Indiana"`
     pub const EAST_INDIANA: tz::TimeZoneRef<'static> = crate::generated::tzdata::AMERICA_FORT_WAYNE;
     /// Time zone data for `"US/Hawaii"`
@@ -2290,9 +2294,9 @@ pub mod us {
     /// Time zone data for `"US/Michigan"`
     pub const MICHIGAN: tz::TimeZoneRef<'static> = crate::generated::tzdata::AMERICA_DETROIT;
     /// Time zone data for `"US/Mountain"`
-    pub const MOUNTAIN: tz::TimeZoneRef<'static> = crate::generated::tzdata::MST_7_MDT;
+    pub const MOUNTAIN: tz::TimeZoneRef<'static> = crate::generated::tzdata::NAVAJO;
     /// Time zone data for `"US/Pacific"`
-    pub const PACIFIC: tz::TimeZoneRef<'static> = crate::generated::tzdata::PST_8_PDT;
+    pub const PACIFIC: tz::TimeZoneRef<'static> = crate::generated::tzdata::AMERICA_LOS_ANGELES;
     /// Time zone data for `"US/Samoa"`
     pub const SAMOA: tz::TimeZoneRef<'static> = crate::generated::tzdata::PACIFIC_PAGO_PAGO;
     /// Raw, unparsed time zone data for `"US/Alaska"`
@@ -2302,9 +2306,9 @@ pub mod us {
     /// Raw, unparsed time zone data for `"US/Arizona"`
     pub const RAW_ARIZONA: &[u8] = crate::generated::raw_tzdata::MST;
     /// Raw, unparsed time zone data for `"US/Central"`
-    pub const RAW_CENTRAL: &[u8] = crate::generated::raw_tzdata::CST_6_CDT;
+    pub const RAW_CENTRAL: &[u8] = crate::generated::raw_tzdata::AMERICA_CHICAGO;
     /// Raw, unparsed time zone data for `"US/Eastern"`
-    pub const RAW_EASTERN: &[u8] = crate::generated::raw_tzdata::EST_5_EDT;
+    pub const RAW_EASTERN: &[u8] = crate::generated::raw_tzdata::AMERICA_NEW_YORK;
     /// Raw, unparsed time zone data for `"US/East-Indiana"`
     pub const RAW_EAST_INDIANA: &[u8] = crate::generated::raw_tzdata::AMERICA_FORT_WAYNE;
     /// Raw, unparsed time zone data for `"US/Hawaii"`
@@ -2314,9 +2318,9 @@ pub mod us {
     /// Raw, unparsed time zone data for `"US/Michigan"`
     pub const RAW_MICHIGAN: &[u8] = crate::generated::raw_tzdata::AMERICA_DETROIT;
     /// Raw, unparsed time zone data for `"US/Mountain"`
-    pub const RAW_MOUNTAIN: &[u8] = crate::generated::raw_tzdata::MST_7_MDT;
+    pub const RAW_MOUNTAIN: &[u8] = crate::generated::raw_tzdata::NAVAJO;
     /// Raw, unparsed time zone data for `"US/Pacific"`
-    pub const RAW_PACIFIC: &[u8] = crate::generated::raw_tzdata::PST_8_PDT;
+    pub const RAW_PACIFIC: &[u8] = crate::generated::raw_tzdata::AMERICA_LOS_ANGELES;
     /// Raw, unparsed time zone data for `"US/Samoa"`
     pub const RAW_SAMOA: &[u8] = crate::generated::raw_tzdata::PACIFIC_PAGO_PAGO;
 }
@@ -2377,7 +2381,7 @@ pub const MST: tz::TimeZoneRef<'static> = crate::generated::tzdata::MST;
 /// Time zone data for `"MST7MDT"`
 pub const MST_7_MDT: tz::TimeZoneRef<'static> = crate::generated::tzdata::MST_7_MDT;
 /// Time zone data for `"Navajo"`
-pub const NAVAJO: tz::TimeZoneRef<'static> = crate::generated::tzdata::MST_7_MDT;
+pub const NAVAJO: tz::TimeZoneRef<'static> = crate::generated::tzdata::NAVAJO;
 /// Time zone data for `"NZ"`
 pub const NZ: tz::TimeZoneRef<'static> = crate::generated::tzdata::NZ;
 /// Time zone data for `"NZ-CHAT"`
@@ -2467,7 +2471,7 @@ pub const RAW_MST: &[u8] = crate::generated::raw_tzdata::MST;
 /// Raw, unparsed time zone data for `"MST7MDT"`
 pub const RAW_MST_7_MDT: &[u8] = crate::generated::raw_tzdata::MST_7_MDT;
 /// Raw, unparsed time zone data for `"Navajo"`
-pub const RAW_NAVAJO: &[u8] = crate::generated::raw_tzdata::MST_7_MDT;
+pub const RAW_NAVAJO: &[u8] = crate::generated::raw_tzdata::NAVAJO;
 /// Raw, unparsed time zone data for `"NZ"`
 pub const RAW_NZ: &[u8] = crate::generated::raw_tzdata::NZ;
 /// Raw, unparsed time zone data for `"NZ-CHAT"`

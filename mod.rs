@@ -19,10 +19,10 @@ mod tzdata;
 pub mod time_zone;
 
 /// The version of the source Time Zone Database
-pub const VERSION: &str = "2026b";
+pub const VERSION: &str = "2026d";
 
 /// The SHA512 hash of the source Time Zone Database (using the "Complete Distribution")
-pub const VERSION_HASH: &str = "5ec7f74f14cd2c70a0730e3690e82bd0ba889ac26c96397c16aa08005473c2c86feb47958b52e0301810c8eb908e6d8faf998ffae75b2337a912cc9e52c0f9e9";
+pub const VERSION_HASH: &str = "b2f4622ef0c2a33ee4a9282c8346dc2732e044617b3b7a1288bc065910653ed8109f01b1423b4b497373f9bc2b9fefb0a75a02c6b79e266ea2fe9767ec32ee89";
 
 #[allow(unreachable_pub)] // false positive
 pub use self::tz_names::TZ_NAMES;
